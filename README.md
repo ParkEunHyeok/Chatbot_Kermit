@@ -8,4 +8,8 @@
 개굴. 원래 Bert 모델을 사용하여 학습하려 했으며 그래서 프로젝트명도 Kermit이 됐지만, Text Generation에는 Bert가 적합하지 않아 Ko-GPT2 모델을 사용하여 학습했습니다.</br>
 개굴. 한글을 갓 배운 개구리답게 능숙하게 대화를 하지 못하고 일부 어색한 문장을 만들어내기도 합니다. 너그럽게 이해해주세요.</br>
 
+## Kermit 프로그램 흐름도
+![image](https://user-images.githubusercontent.com/35924139/134572105-0643c4f8-3303-4990-ae47-90ec22f9ec0a.png)
+
+## Kermit 포스터
 ![kermit](https://user-images.githubusercontent.com/35924139/134570770-a337d942-c418-406e-991f-304b2af5a42a.png)
