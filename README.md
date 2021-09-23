@@ -15,7 +15,7 @@
 ## Kermit GPT2
 **Kermit_GPT2_TextGeneration.ipynb** : 모델을 불러오고 챗봇 대화 데이터셋을 임베딩, 토큰화하여 학습합니다.
 **Kermit_GPT2_ChatbotTesting.ipynb** : 학습된 모델 pth 파일을 불러와 Text Generation을 수행합니다.
-'''class DialogKoGPT2(nn.Module):
+```class DialogKoGPT2(nn.Module):
   def __init__(self):
     super(DialogKoGPT2, self).__init__()
     self.kogpt2 = get_kogpt2_model()
@@ -31,8 +31,9 @@
                num_return_sequences=3,
                early_stopping=False,
                ):
-    ...생략'''
-    DialogKoGPT2 클래스는 KoGPT2 모델을 불러와서 generate를 수행합니다. (Huggingface의 how-to-generate-text 문서 참조)
+    ...생략
+```
+DialogKoGPT2 클래스는 KoGPT2 모델을 불러와서 generate를 수행합니다. (Huggingface의 how-to-generate-text 문서 참조)
 
 ## Kermit 포스터
 ![kermit](https://user-images.githubusercontent.com/35924139/134570770-a337d942-c418-406e-991f-304b2af5a42a.png)
