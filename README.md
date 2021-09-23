@@ -1,2 +1,4 @@
 # Project_Kermit
-Transformer 아키텍처 기반의 챗봇입니다.
+KoGPT-2 모델을 사용하여 학습하였습니다.
+
+![kermit](https://user-images.githubusercontent.com/35924139/134570770-a337d942-c418-406e-991f-304b2af5a42a.png)
