@@ -15,7 +15,8 @@
 ## Kermit GPT2
 **Kermit_GPT2_TextGeneration.ipynb** : 모델을 불러오고 챗봇 대화 데이터셋을 임베딩, 토큰화하여 학습합니다.
 **Kermit_GPT2_ChatbotTesting.ipynb** : 학습된 모델 pth 파일을 불러와 Text Generation을 수행합니다.
-```class DialogKoGPT2(nn.Module):
+```python
+class DialogKoGPT2(nn.Module):
   def __init__(self):
     super(DialogKoGPT2, self).__init__()
     self.kogpt2 = get_kogpt2_model()
